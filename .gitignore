@@ -1,16 +1,17 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/week2/buymeacoffee-contracts/node_modules
 /.pnp
 .pnp.js
 .vscode
+node_modules
 
 # testing
-/coverage
+coverage
+coverage.json
 
 # production
-/build
+build
 *.zip
 
 # misc
@@ -24,3 +25,9 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+typechain
+
+# Hardhat files
+cache
+artifacts
